@@ -1,0 +1,32 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    transform: scale(5);
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(5.5);
+    pointer-events: painted;
+    cursor: crosshair;
+}
+
+.buttonDiv {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+}
+
+.images {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  transform: scale(5);
+  pointer-events: none;
+}
